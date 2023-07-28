@@ -1,4 +1,4 @@
-# minha-primeira-app
+# Portfolio Samantha Nogueira
 
 ## Project setup
 ```
