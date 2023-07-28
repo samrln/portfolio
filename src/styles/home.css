@@ -1,0 +1,61 @@
+.home {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    background-color: #fcf7e8;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .container_header {
+    list-style-type: none;
+    color: #9c8136;
+  }
+  .container_image {
+    justify-content: center;
+  }
+  .container_image img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .container_button {
+    color: #ff3c80;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    padding: 30px;
+  }
+  .button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Lucida Console";
+    font-size: 18px;
+    margin: 4px 2px;
+    font-weight: bold;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .eng {
+      background-color: #ffe59e; 
+      color: #9e7a18;
+      border: 2px solid #9e7a18;
+  }
+  
+  .eng:hover {
+      background-color: #ffcbdb;
+      color: #ff3c80;
+  }
+  .ti {
+    background-color: #ffe59e; 
+    color: #9e7a18;
+    border: 2px solid #9e7a18;
+  }
+  .ti:hover {
+    background-color: #ffcbdb;
+    color: #ff3c80;
+  }

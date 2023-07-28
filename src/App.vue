@@ -2,7 +2,7 @@
   <div id="nav">
     <router-link to="/">Home</router-link> | 
     <router-link to="/EngineerPortfolio">Engineer</router-link> |
-    <router-link to="/DeveloperPortfolio">Develope</router-link>
+    <router-link to="/DeveloperPortfolio">Developer</router-link>
   </div>
   <router-view />
 </template>
@@ -16,6 +16,10 @@
 <style>
 #app {
   text-align: center;
-  margin-top: 60px;
+  margin: 20px 0px 60px;
+}
+
+#nav {
+  padding: 30px;
 }
 </style>
