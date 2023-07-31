@@ -15,9 +15,16 @@
   }
   .container_image img {
     margin: 10px;
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 250px;
     border-radius: 50%;
+  }
+  .container_text {
+    color: #9c8136;
+    font-family: "Lucida Console";
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
   }
   .container_button {
     color: #ff3c80;
@@ -47,8 +54,8 @@
   }
   
   .eng:hover {
-      background-color: #ffcbdb;
-      color: #ff3c80;
+      background-color: #fffbef;
+      color: #a29267;
   }
   .ti {
     background-color: #ffe59e; 
@@ -56,6 +63,6 @@
     border: 2px solid #9e7a18;
   }
   .ti:hover {
-    background-color: #ffcbdb;
-    color: #ff3c80;
+    background-color: #fffbef;
+    color: #a29267;
   }

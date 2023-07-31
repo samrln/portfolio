@@ -6,6 +6,9 @@
     <div class="container_image">
       <img src="../assets/logo.jpg">
     </div>
+    <div class="container_text">
+      <p>Olá 👋, esses são meus portfolios</p>
+    </div>
     <div class="container_button">
       <button class="button eng" @click="engineerPortfolio()">engenharia</button>
       <button class="button ti" @click="developerPortfolio()">programacao</button>
@@ -14,7 +17,7 @@
 </template>
 
 <script>
-export default{
+export default {
   name: 'homePage',
 
   methods: {
