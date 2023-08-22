@@ -1,6 +1,7 @@
 <template>
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
   <div id="nav">
-    <router-link to="/">Home</router-link> | 
+    <router-link to="/">Home</router-link> |
     <router-link to="/EngineerPortfolio">Engineer</router-link> |
     <router-link to="/DeveloperPortfolio">Developer</router-link>
   </div>
@@ -8,9 +9,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'app'
-  }
+export default {
+  name: 'app'
+}
 </script>
 
 <style>

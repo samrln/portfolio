@@ -1,0 +1,46 @@
+.header {
+  color: #514f52;
+}
+
+.university-information {
+  padding: 2px;
+  /* background-color: #witch; */
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.developer-information {
+  flex-direction: column;
+}
+
+.stacks-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+.stacks-section>div {
+  flex-direction: row;
+}
+
+.stacks-section>div>svg {
+  color: #484747;
+}
+
+.stacks-section>div>span {
+  padding-left: 50px;
+}
+
+.github-section {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.linkedin-section {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}

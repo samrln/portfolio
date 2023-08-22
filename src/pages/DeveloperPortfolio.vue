@@ -1,24 +1,36 @@
 <template>
-  <div>
-    <h1>{{ pageTitle }}</h1>
-    <div>
+  <div class="developer">
+    <div class="header">
+      <h1>{{ pageTitle }}</h1>
+    </div>
+    <div class="university-information">
+      <h2>Formação acadêmica</h2>
+      <h3>Banco de Dados</h3>
+      <h4>FATEC</h4>
+      <p>Feveriro de 2023 - Dezembro de 2025</p>
+    </div>
+    <div class="developer-information">
       <div class="stacks-section">
-        <div>
-          <h3>Languages and Tools:</h3>
-          <div v-for="stack in stacks" :key="stack.name" class="stack-item">
-            <img :src="stack.icon" :alt="stack.name" width="40" height="40" />
-            <div class="stack-details">
-              <span>{{ stack.name }}</span>
-              <div class="progress-bar">
-                <div class="progress" :style="{ width: stack.progress + '%' }"></div>
-              </div>
-            </div>
-          </div>
+        <h3>Languages</h3>
+        <div v-for="stack in stacks" :key="stack.name">
+          <font-awesome-icon :icon="stack.icon" size="2xl" />
+          <span>{{ stack.name }}</span>
         </div>
       </div>
+      <div class="stacks-section">
+        <h3>Languages</h3>
+        <div v-for="stack in stacks" :key="stack.name">
+          <font-awesome-icon :icon="stack.icon" size="2xl" />
+          <span>{{ stack.name }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="social-media-section">
       <div class="github-section">
-        <h2>Meu GitHub:</h2>
-        <a :href="githubURL" target="_blank">{{ githubURL }}</a>
+        <font-awesome-icon :icon="['fab', 'square-git']" size="2xl" @click="openGithub()" />
+      </div>
+      <div class="linkedin-section">
+        <font-awesome-icon :icon="['fab', 'linkedin']" size="2xl" @click="openlinkedin()" />
       </div>
     </div>
   </div>
@@ -29,87 +41,47 @@ export default {
   data() {
     return {
       pageTitle: "Portfólio Software Developer",
-      githubURL: "https://github.com/seu_usuario",
-      myProjects: ["Meu Portfólio"],
       stacks: [
         {
           name: "AWS",
-          icon:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-          progress: 80,
+          icon: ['fab', 'aws'],
         },
         {
           name: "Elasticsearch",
-          icon:
-            "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg",
-          progress: 70,
+          icon: ['fas', 'screwdriver-wrench'],
         },
         {
           name: "Typescript",
-          icon:
-           "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-          progress: 60,
+          icon: ['fas', 'file-code'],
         },
         {
           name: "Javascript",
-          icon:
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
-          progress: 60,
+          icon: ['fab', 'js'],
         },
         {
           name: "Vue",
-          icon:
-            "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
-          progress: 60,
+          icon: ['fab', 'vuejs'],
         },
         {
           name: "Elixir",
-          icon:
-            "https://upload.wikimedia.org/wikipedia/commons/9/92/Official_Elixir_logo.png",
-          progress: 50,
+          icon: ['fas', 'file-code'],
         },
         {
           name: "Ruby",
-          icon:
-            "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
-          progress: 50,
+          icon: ['fas', 'file-code'],
         }
       ],
     };
   },
+  methods: {
+    openGithub() {
+      window.open('https://github.com/samrln', '_blank');
+    },
+    openlinkedin() {
+      window.open('https://www.linkedin.com/in/samrln/', '_blank');
+    },
+  },
 };
 </script>
   
-<style>
-.stacks-section,
-.github-section {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
-  /* Espaçamento entre as seções */
-}
-
-.stack-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.stack-details {
-  margin-left: 10px;
-}
-
-.progress-bar {
-  background-color: #f0f0f0;
-  border-radius: 4px;
-  height: 10px;
-  width: 100px;
-}
-
-.progress {
-  background-color: #4caf50;
-  border-radius: 4px;
-  height: 100%;
-}
-</style>
-  
+<style src="../styles/developerPortfolio.css" scoped></style>
