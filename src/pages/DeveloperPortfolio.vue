@@ -10,14 +10,14 @@
       <p>Feveriro de 2023 - Dezembro de 2025</p>
     </div>
     <div class="developer-information">
-      <div class="stacks-section">
+      <div stacks-section>
         <h3>Languages</h3>
         <div v-for="stack in stacks" :key="stack.name">
           <font-awesome-icon :icon="stack.icon" size="2xl" />
           <span>{{ stack.name }}</span>
         </div>
       </div>
-      <div class="stacks-section">
+      <div stacks-section>
         <h3>Languages</h3>
         <div v-for="stack in stacks" :key="stack.name">
           <font-awesome-icon :icon="stack.icon" size="2xl" />

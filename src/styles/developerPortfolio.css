@@ -4,43 +4,54 @@
 
 .university-information {
   padding: 2px;
-  /* background-color: #witch; */
+  background-color: rgb(221, 221, 221);
   margin-right: 10px;
   margin-left: 10px;
 }
 
 .developer-information {
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
 }
+
+.developer-information > div {
+  flex: 1;
+  padding: 10px;
+  /* Adicione outros estilos conforme necessário */
+} 
 
 .stacks-section {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  padding-bottom: 5%;
-  padding-top: 1%;
+  /* Adicione outros estilos conforme necessário */
 }
 
-.stacks-section>div {
-  flex-direction: row;
+.stacks-section > div {
+  display: flex;
+  align-items: center;
+  /* Adicione outros estilos conforme necessário */
 }
 
-.stacks-section>div>svg {
+.stacks-section > div > svg {
   color: #484747;
+  /* Adicione outros estilos conforme necessário */
 }
 
-.stacks-section>div>span {
-  padding-left: 50px;
+.stacks-section > div > span {
+  padding-left: 10px;
+  /* Adicione outros estilos conforme necessário */
 }
 
-.github-section {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
+
+.social-media-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.github-section,
 .linkedin-section {
   display: inline-block;
   vertical-align: top;
-  margin-right: 20px;
 }
