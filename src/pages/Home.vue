@@ -7,7 +7,7 @@
       <img src="../assets/logo.jpg">
     </div>
     <div class="container_text">
-      <p>Olá 👋, esses são meus portfolios</p>
+      <p>Olá 👋, essa é a primeira versão do meu portfolio !</p>
     </div>
     <div class="container_button">
       <button class="button eng" @click="engineerPortfolio()">engenharia</button>

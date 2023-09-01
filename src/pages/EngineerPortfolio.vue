@@ -4,10 +4,10 @@
       <h1>Portfólio de Engenharia</h1>
     </div>
     <div class="university-information">
-        <h2>Formação acadêmica</h2>
-        <h3>Engenharia de Energia</h3>
-        <h4>UNESP - Universidade Estadual Paulista "Júlio de Mesquita Filho"</h4>
-        <p>Feveriro de 2017 - Agosto de 2022</p>
+      <h2>Formação acadêmica</h2>
+      <h3>Engenharia de Energia</h3>
+      <h4>UNESP - Universidade Estadual Paulista "Júlio de Mesquita Filho"</h4>
+      <p>Feveriro de 2017 - Agosto de 2022</p>
     </div>
     <div class="formation">
       <div class="resumos">

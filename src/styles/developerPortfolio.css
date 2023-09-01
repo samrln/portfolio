@@ -1,0 +1,49 @@
+.header {
+  color: #514f52;
+}
+
+.university-information {
+  padding: 2px;
+  background-color: #f6dfef;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.developer-information {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+
+.stacks-section {
+  display: flex;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.stacks-section>h3 {
+  display: flex;
+  align-items: center;
+  width: 93px;
+  height: 46px;
+  padding-right: 50px;
+}
+
+.icon_stack {
+  display: flex;
+  padding-left: 50px;
+}
+
+.github-section {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.linkedin-section {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
