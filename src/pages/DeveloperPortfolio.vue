@@ -10,17 +10,24 @@
       <p>Feveriro de 2023 - Dezembro de 2025</p>
     </div>
     <div class="developer-information">
-      <div stacks-section>
-        <h3>Languages</h3>
-        <div v-for="stack in stacks" :key="stack.name">
-          <font-awesome-icon :icon="stack.icon" size="2xl" />
+      <div class="stacks-section">
+        <h3>Linguagens</h3>
+        <div v-for="stack in languages" :key="stack.name" class="icon_stack">
+          <p><font-awesome-icon :icon="stack.icon" size="2xl" /></p>
           <span>{{ stack.name }}</span>
         </div>
       </div>
-      <div stacks-section>
-        <h3>Languages</h3>
-        <div v-for="stack in stacks" :key="stack.name">
-          <font-awesome-icon :icon="stack.icon" size="2xl" />
+      <div class="stacks-section">
+        <h3>Infra</h3>
+        <div v-for="stack in infra" :key="stack.name" class="icon_stack">
+          <p><font-awesome-icon :icon="stack.icon" size="2xl" /></p>
+          <span>{{ stack.name }}</span>
+        </div>
+      </div>
+      <div class="stacks-section">
+        <h3>Outros</h3>
+        <div v-for="stack in outros" :key="stack.name" class="icon_stack">
+          <p><font-awesome-icon :icon="stack.icon" size="2xl" /></p>
           <span>{{ stack.name }}</span>
         </div>
       </div>
@@ -41,15 +48,7 @@ export default {
   data() {
     return {
       pageTitle: "Portfólio Software Developer",
-      stacks: [
-        {
-          name: "AWS",
-          icon: ['fab', 'aws'],
-        },
-        {
-          name: "Elasticsearch",
-          icon: ['fas', 'screwdriver-wrench'],
-        },
+      languages: [
         {
           name: "Typescript",
           icon: ['fas', 'file-code'],
@@ -69,7 +68,31 @@ export default {
         {
           name: "Ruby",
           icon: ['fas', 'file-code'],
+        },
+        {
+          name: "Swfit",
+          icon: ['fas', 'file-code'],
         }
+      ],
+      infra: [
+        {
+          name: "AWS",
+          icon: ['fab', 'aws'],
+        },
+        {
+          name: "Kubernets",
+          icon: ['fas', 'file-code'],
+        },
+        {
+          name: "Docker",
+          icon: ['fas', 'file-code'],
+        },
+      ],
+      outros: [
+        {
+          name: "Elasticsearch",
+          icon: ['fas', 'screwdriver-wrench'],
+        },
       ],
     };
   },
