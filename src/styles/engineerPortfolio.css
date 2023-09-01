@@ -1,67 +1,67 @@
 .engineer {
-   flex-direction: column;
-   width: max-width;
-   height: 500px;
+  flex-direction: column;
+  width: max-width;
+  height: 500px;
 }
 
 .header {
-   color: #514f52;
+  color: #514f52;
 }
 
 .university-information {
-   padding: 10px;
-   background-color: #f9e6fa;
-   margin-right: 10px;
-   margin-left: 10px;
+  padding: 10px;
+  background-color: #f9e6fa;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .university-information>div>h2 {
-   color: #514f52;
+  color: #514f52;
 }
 
 .university-information>div>h3 {
-   color: #686569;
+  color: #686569;
 }
 
 .university-information>div>h4 {
-   color: #686569;
+  color: #686569;
 }
 
 .university-information>div>p {
-   color: #8b888c;
+  color: #8b888c;
 }
 
 .formation {
-   display: flex;
-   align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
 .resumos {
-   display: grid;
-   margin-right: 25px;
-   margin-left: 25px;
+  display: grid;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .resumos>div {
-   padding: 10px;
+  padding: 10px;
 }
 
 .resumos>div>h2 {
-   color: #514f52;
+  color: #514f52;
 }
 
 .resumos>div>h3 {
-   color: #686569;
+  color: #686569;
 }
 
 .resumos>div>p {
-   text-align: left;
-   color: #8b888c;
-   margin-right: 65px;
-   margin-left: 65px;
-   text-align: justify;
+  text-align: left;
+  color: #8b888c;
+  margin-right: 65px;
+  margin-left: 65px;
+  text-align: justify;
 }
 
 .certificate {
-   padding: 20px;
+  padding: 20px;
 }

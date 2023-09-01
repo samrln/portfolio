@@ -19,8 +19,6 @@
 
 .stacks-section {
   display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
   padding-right: 40px;
   padding-left: 40px;
 }

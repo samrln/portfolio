@@ -9,7 +9,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { dom } from "@fortawesome/fontawesome-svg-core";
 
-library.add(far,fab,fas);
+library.add(far, fab, fas);
 
 dom.watch();
 

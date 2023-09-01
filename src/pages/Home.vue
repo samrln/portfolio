@@ -13,7 +13,7 @@
       <button class="button eng" @click="engineerPortfolio()">engenharia</button>
       <button class="button ti" @click="developerPortfolio()">programacao</button>
     </div>
-  </div>  
+  </div>
 </template>
 
 <script>
