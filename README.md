@@ -2,17 +2,26 @@
 
 Bem-vindo ao meu portfólio, criado com Vue.js! Este é um espaço onde compartilho meus projetos e demonstrações técnicas que representam minhas habilidades e conhecimentos em desenvolvimento web. Sou apaixonado por desenvolvimento e estou em constante busca por soluções inovadoras e eficientes. Sinta-se à vontade para explorar e, se quiser colaborar ou tiver alguma dúvida técnica, não hesite em entrar em contato.
 
+## Sumário
+
+- [Sobre Mim](#sobre-mim)
+- [Habilidades Técnicas](#habilidades-técnicas)
+- [Débitos Técnicos](#débitos-técnicos)
+- [Como Executar os Projetos](#como-executar-os-projetos)
+- [Contato](#contato)
+- [Licença](#licença)
+
 ## Sobre Mim
 
 - **Nome**: Samantha Nogueira
 - **Profissão**: Desenvolvedora de Software
-- **Localização**: BR-SP-SJC 
+- **Localização**: São Jose dos Campos @ São Paulo
 - **Contato**: samanthareginaln@gmail.com
 - **Website**: samrln.github.io/portfolio/
 
 ## Habilidades Técnicas
 
-Minhas habilidades técnicas envolvidas nesse projeto são:
+As habilidades técnicas envolvidas nesse projeto são:
 
 - **Vue.js**: Desenvolvimento de aplicações web dinâmicas e eficientes.
 - **JavaScript (ES6+)**: Programação frontend.
